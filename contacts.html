@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/onjoro.com.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">  
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Onj'O.F TECHNOLOGIES</title>
+
+</head>
+<body>
+<!-- ========Scroll to top button========== -->
+     <div class="scrollToTop-btn flex-center">
+        <i class="fas fa-arrow-up"> </i>
+     </div>
+
+     <!-- light dark them btn -->
+     <div class="theme-btn flex-center">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+     </div>
+    <!-- =================Header========== -->
+    <header>
+        <div class="nav-bar">
+            <a href="index.html" class="logo">ONJ'O.F TECHNOLOGIES</a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <div class="nav-close-btn"></div>
+                    <a class="active" href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contacts.html">Contact</a>
+                </div>
+            </div>
+            <div class="nav-menu-btn"></div>
+        </div>
+    </header>
+    
+
+
+<!-- ===========Contact Section============= -->
+<section class="about section" id="about">
+    <div class="container flex-center">
+        <h1 class="section-title-01">Contacts</h1>
+        <h2 class="section-title-02">Contacts</h2>
+        <div class="content flex-center">    
+            <div class="contact-left">
+             <h2>Let's discuss your Project</h2>
+             <ul class="contact-list">
+                 <li>
+                     <h3 class="item-title"><i class="fas fa-phone"></i> Phone </h3>
+                     <span>0793048318</span>
+                 </li>
+                 <li>
+                     <h3 class="item-title"><i class="fas fa-envelope"></i> Phone </h3>
+                     <span> <a href="mailto:emmanuelonjoro@gmail.com"> emmanuelonjoro@gmail.com</a></span>
+                 </li>
+                 <li>
+                     <h3 class="item-title"><i class="fas fa-map-marker"></i> Official Address</h3>
+                     <span>440-40506, Funyula </span>
+                 </li>
+             </ul>
+            </div> 
+            <div class="contact-right">
+             <p> I'm always open to discussing product, <br> <span> design work or partnership</span></p>
+             <form class="contact-form" id="contactForm" method="POST">
+                 <div class="first-row">
+                     <input type="text" id="name" placeholder="Name">
+                 </div>
+                 <div class="second-row">
+                     <input type="email" id="email" placeholder="Email Address">
+                     <input type="text" id="subject" placeholder="Subject">
+                 </div>
+                 <div class="third-row">
+                     <textarea id="message" rows="7" placeholder="Message"></textarea>
+                 </div>
+                 <button class="btn" type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+             </form>
+             
+             <div id="successMessage" style="display: none;">Message delivered successfully!</div>
+             
+            </div>
+         </div>
+    </div>
+</section>
+
+<!-- ============Footer ============-->
+<footer>
+    <div class="footer-container">
+        <div class="about group">
+            <h2>ONJ'O.F TECHNOLOGIES</h2>
+            <P>Front-End Developer</P>
+            <a href="about.html"> About Me</a>
+        </div>
+        <div class="hr"></div>
+        <div class="info group">
+            <h3>More</h3>
+            <ul>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contacts.html">Conctact</a></li> 
+            </ul>
+        </div>
+        <div class="hr"></div>
+        <div class="follow group">
+            <h3>Follow Me On</h3>
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-tiktok"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>       
+    </div>
+    <div class="footer-copy-right group" >
+        <p> 
+            &copy; 2023 ONJ'O.F <span>TECHNOLOGIES</span>. All rights reserved
+        </p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+    <script src="min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+        <script>
+             var swiper = new Swiper(".client-swiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+        </script>  
+           
+</body>
+</html>

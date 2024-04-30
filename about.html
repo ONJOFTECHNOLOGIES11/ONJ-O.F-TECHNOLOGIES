@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/onjoro.com.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">  
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Onj'O.F TECHNOLOGIES</title>
+
+</head>
+<body>
+<!-- ========Scroll to top button========== -->
+     <div class="scrollToTop-btn flex-center">
+        <i class="fas fa-arrow-up"> </i>
+     </div>
+
+     <!-- light dark them btn -->
+     <div class="theme-btn flex-center">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+     </div>
+    <!-- =================Header========== -->
+    <header>
+        <div class="nav-bar">
+            <a href="index.html" class="logo">ONJ'O.F TECHNOLOGIES</a>
+            <h2 class="section-title-02">About Me</h2>
+
+            <div class="navigation">
+                <div class="nav-items">
+                    <div class="nav-close-btn"></div>
+                    <a class="active" href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contacts.html">Contact</a>
+                </div>
+            </div>
+            <div class="nav-menu-btn"></div>
+        </div>
+    </header>
+    
+
+
+<!-- ==========About Section====================== -->
+<section class="about section" id="about">
+    <div class="container flex-center">
+        <h1 class="section-title-01">About</h1>
+        <h2 class="section-title-02">About</h2>
+        <div class="content flex-center">
+            <div class="about-img">
+                <img src="images/onjoro.com.jpg" alt="">
+            </div>
+            <div class="about-info">
+                <div class="description">
+                    <h3>I'm Onjoro</h3>
+                    <h4>A lead <span> Front-End Developer</span> based in <span> Busia</span></h4>
+                    <p>I develope and design services for customers specializing in creating stylish, modern websites, web services and online-stores. My persion is to design digital user experinces through meaningful interactions. Check out My <a href="portfolio.html"> Portfolio</a></p>
+                </div>
+                <ul class="professional-list">
+                    <li class="list-item">
+                        <h3>2.5</h3>
+                        <span>Years of <br> Experience</span>
+                    </li>
+
+                    <li class="list-item">
+                        <h3>29</h3>
+                        <span>Happy <br> Clients</span>
+                    </li>
+
+                    <li class="list-item">
+                        <h3>18</h3>
+                        <span>Successful <br> Projects</span>
+                    </li>
+                </ul>                           
+                <a href="" class="btn" onclick="downloadCV()">Download CV <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============Footer ============-->
+<footer>
+    <div class="footer-container">
+        <div class="about group">
+            <h2>ONJ'O.F JUNIOR</h2>
+            <P>Front-End Developer</P>
+            <a href="about.html"> About Me</a>
+        </div>
+        <div class="hr"></div>
+        <div class="info group">
+            <h3>More</h3>
+            <ul>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contacts.html">Conctact</a></li> 
+            </ul>
+        </div>
+        <div class="hr"></div>
+        <div class="follow group">
+            <h3>Follow Me On</h3>
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-tiktok"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>       
+    </div>
+    <div class="footer-copy-right group" >
+        <p> 
+            &copy; 2023 ONJ'O.F <span>TECHNOLOGIES</span>. All rights reserved
+        </p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+    <script src="min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+        <script>
+             var swiper = new Swiper(".client-swiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+        </script>  
+           
+</body>
+</html>
